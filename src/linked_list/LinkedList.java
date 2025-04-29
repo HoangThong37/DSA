@@ -1,4 +1,4 @@
-package Linked_List;
+package linked_list;
 
 public class LinkedList {
 
@@ -51,6 +51,7 @@ public class LinkedList {
     }
 
     public void append(int value) {
+        // append last nodele
         Node newNode = new Node(value);
         if (length == 0) {
             head = newNode;
@@ -167,6 +168,30 @@ public class LinkedList {
             temp = after;
         }
     }
+
+   /*
+    if (head == null || head.next == null) {
+        return;
+    }
+
+    Node current = head;
+    Node prev = null;
+    Node next = null;
+
+    // Traverse the list, swapping the prev and next pointers
+    while (current != null) {
+        next = current.next;
+        current.next = prev;
+        current.prev = next;
+        prev = current;
+        current = next;
+    }
+
+    // Update the head and tail pointers
+    tail = head;
+    head = prev;
+
+    */
 
 }
 

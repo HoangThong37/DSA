@@ -1,2 +1,4 @@
-package hashtable;public class Main {
+package hashtable;
+
+public class Main {
 }

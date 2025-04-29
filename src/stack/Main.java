@@ -1,2 +1,4 @@
-package stack;public class Main {
+package stack;
+
+public class Main {
 }

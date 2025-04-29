@@ -1,2 +1,4 @@
-package Linked_List;public class _1721_swapping_nodes {
+package linked_list;
+
+public class _1721_swapping_nodes {
 }
